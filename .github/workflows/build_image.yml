@@ -7,6 +7,7 @@ on:
 permissions:
   contents: read
   packages: write
+  actions: write
 jobs:
   build:
     # Build on native AMD64 and ARM64 runners to avoid cross-arch emulation
